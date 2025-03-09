@@ -6,7 +6,8 @@ import Contatos from './views/Contatos';
 import Sobre from './views/Sobre';
 import { BrowserRouter, Route, Routes } from 'react-router';
 import Principal from './layouts/Principal';
-import Entre from './views/Entre';
+import Login from './views/Login';
+import CriarConta from './views/CriarConta';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="contatos" element={<Contatos />} />
           <Route path="sobre" element={<Sobre />} />
-          <Route path="entre" element={<Entre />} />
+          <Route path="login" element={<Login />}/>
+          <Route path="criarConta" element={<CriarConta />}/>
         </Route>
       </Routes>
     </BrowserRouter>

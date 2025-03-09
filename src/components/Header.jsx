@@ -39,7 +39,7 @@ const Header = () => {
                 <MDBNavbarLink href="/sobre">Sobre</MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="/entre">Entre</MDBNavbarLink>
+                <MDBNavbarLink href="/login">Entre</MDBNavbarLink>
               </MDBNavbarItem>
             </MDBNavbarNav>
           </MDBCollapse>
