@@ -52,9 +52,12 @@ const Footer = () => {
                 <p>
                   Minha Conta
                 </p>
-                <p>
-                  Login / Registrar
-                </p>
+                <a href='/criarConta'>
+                  <p>
+                    Login / Registrar
+                  </p>
+                </a>
+                
                 <p>
                   Carrinho
                 </p>
