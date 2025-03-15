@@ -1,5 +1,4 @@
 import { Container } from 'react-bootstrap';
-import PropriedadesCard from './PropriedadesCard';
 
 const Main = () => {
   return (
