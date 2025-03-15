@@ -52,9 +52,12 @@ const Footer = () => {
                 <p>
                   Minha Conta
                 </p>
-                <p>
-                  Login / Registrar
-                </p>
+                <a href='/criarConta'>
+                  <p>
+                    Login / Registrar
+                  </p>
+                </a>
+                
                 <p>
                   Carrinho
                 </p>
@@ -83,21 +86,6 @@ const Footer = () => {
                 </p>
               </MDBCol>
 
-              <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-                <h6 className="fw-bold mb-4">
-                  Baixar App
-                </h6>
-                <p>
-                  H
-                </p>
-
-                <div>
-                  <MDBIcon fab icon="facebook-f" className="me-3" />
-                  <MDBIcon fab icon="twitter" className="me-3"/>
-                  <MDBIcon fab icon="instagram" className="me-3"/>
-                  <MDBIcon fab icon="linkedin-in" className="me-3"/>
-                </div>
-              </MDBCol>
             </MDBRow>
           </MDBContainer>
         </section>

@@ -1,9 +1,14 @@
-footer {
-  margin-top: auto;
-  padding-top: 25px;
-}
 
 footer {
   background-color: #000;
   color: #fff;
+  margin-top: auto;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
 }
