@@ -1,4 +1,4 @@
-import FazerLogin from "../components/fazerLogin";
+import FazerLogin from "../components/FazerLogin.jsx";
 
 const Login = () => {
     return (
