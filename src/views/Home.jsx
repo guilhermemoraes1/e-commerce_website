@@ -6,7 +6,6 @@ const Home = () => {
   return (
     <>
     <div className="list-container">
-      <CategoryList />
       <ProdutoItem />
     </div>
     </>

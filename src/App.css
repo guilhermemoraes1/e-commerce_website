@@ -23,9 +23,17 @@
 .product-item {
     border: 1px solid #ccc; /* Adiciona uma borda para visualização */
     padding: 15px; /* Espaçamento interno */
-    width: 200px; /* Largura fixa para cada produto */
+    width: 210px; /* Largura fixa para cada produto */
     text-align: center; /* Centraliza o conteúdo */
 }
+
+.product-item img {
+    width: 50%; /* A imagem ocupa toda a largura do card */
+    height: auto; /* A altura é ajustada proporcionalmente à largura */
+    max-height: 150px; /* Define uma altura máxima para evitar distorções */
+    object-fit: cover; /* Faz a imagem se ajustar ao espaço sem distorcer */
+    margin-bottom: 10px; /* Espaço entre a imagem e o conteúdo */
+}  
 
 h1, h2 {
     margin: 20px 0;
