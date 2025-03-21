@@ -1,4 +1,3 @@
-import CategoryList from '../components/CategoriesList';
 import '../App';
 import ProdutoItem from '../components/ProdutosList';
 
