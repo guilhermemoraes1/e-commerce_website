@@ -1,7 +1,16 @@
-import Main from '../components/Main';
+import CategoryList from '../components/CategoriesList';
+import '../App';
+import ProdutoItem from '../components/ProdutosList';
 
 const Home = () => {
-  return <Main></Main>;
+  return (
+    <>
+    <div className="list-container">
+      <CategoryList />
+      <ProdutoItem />
+    </div>
+    </>
+  );
 };
 
 export default Home;

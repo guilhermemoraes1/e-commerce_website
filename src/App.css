@@ -1,0 +1,59 @@
+/* App.css */
+.list-container {
+    padding-left: 20px; /* Ajuste o valor conforme necessário */
+    padding-top: 20px;
+    padding-right: 20px; /* Espaço interno à esquerda */
+    border-right: 1px solid #4d4c4c44; /* Borda à esquerda */
+}
+
+.valores-lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-list {
+    display: flex; /* Ativa o Flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se não couberem */
+    gap: 20px; /* Espaço entre os produtos */
+    justify-content: center; /* Centraliza os produtos horizontalmente */
+    margin-bottom: 20px;
+}
+
+.product-item {
+    border: 1px solid #ccc; /* Adiciona uma borda para visualização */
+    padding: 15px; /* Espaçamento interno */
+    width: 200px; /* Largura fixa para cada produto */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+h1, h2 {
+    margin: 20px 0;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+del {
+    color: #999;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
